@@ -1,0 +1,81 @@
+
+
+#library-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    padding:10px;
+}
+
+#library-container{
+    background-color:burlywood;
+}
+
+.book-card {
+    background-color:brown;
+    padding:10px;
+    color:white;
+    text-align:center;
+    border-radius:4px;
+    
+}
+.book-card .buttons{
+    display:flex;
+    gap:5px;
+}
+
+.book-card button{
+    background-color:lightgray;
+    border-radius:5px;
+    border:2px solid brown;
+    color:brown;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.book-card button:hover{
+    color:yellow;
+    background-color:burlywood;
+    font-weight:800px;
+}
+
+.new-book{
+    background:burlywood;
+    display:flex;
+    justify-content:center;
+    padding:15px;
+}
+
+.new-book button{
+    padding:5px;
+    color:brown;
+    border-radius:7px;
+    border:1px solid brown;
+    background-color:whitesmoke;
+}
+
+.new-book button:hover{
+    color:yellow;
+    background-color:brown;
+    font-weight:800px;
+}
+
+dialog{
+    background-color:burlywood;
+}
+#book-form{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+}
+
+.form-buttons{
+    display:flex;
+    gap:5px;
+    justify-content:space-around;
+    border-radius:3px;
+    font-size:18px;
+    padding-top:12px;
+}
